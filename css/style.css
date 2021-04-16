@@ -75,5 +75,47 @@ body {
 
 input[type=text]:focus {
     border: 3px solid #555;
-  }
+}
+
+#imageselector {
+    margin: 48px;
+}
+
+#imgradio {
+    display: flex;
+}
+
+.imageoption {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+}
+
+#radioone {
+    position: relative;
+    top : 8px;
+}
+
+#radiotwo {
+    position: relative;
+    top: 8px;
+    left: 50px;
+}
+
+#imagesecondchoice {
+    position: relative;
+    left : 80px;
+}
+
+#radiothree {
+    position: relative;
+    top : 8px;
+    left : 110px;
+}
+#imagethirdchoice {
+    position: relative;
+    left : 130px;
+}
+
 
