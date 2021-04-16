@@ -118,4 +118,62 @@ input[type=text]:focus {
     left : 130px;
 }
 
+#radiofemale {
+    position: relative;
+    left : 30px;
+}
+
+#male {
+    position: relative;
+    left : 50px;
+}
+
+#radiomale {
+    position: relative;
+    left: 60px;
+}
+
+#departmentselector {
+    align-self: center;
+    display: flex;
+    width : 80%;
+    justify-content: space-around;
+}
+
+#departmentlabel {
+    width : 30%;
+    font-family: 'Roboto', sans-serif;
+    color :black;
+    font-weight: 800;
+    position: relative;
+    top : 50px;
+}
+
+#departmentsource {
+    width : 70%;
+    height : 20px;
+    position: relative;
+    top: 50px;
+}
+
+#salaryselector {
+    width : 30%;
+    font-family: 'Roboto', sans-serif;
+    color :black;
+    font-weight: 800;
+    position: relative;
+    top : 90px;
+    left : 99px;
+}
+
+#salarysource {
+    width : 70%;
+    height : 20px;
+    position: relative;
+    left : 230px;
+    bottom : 10px;
+}
+
+
+
 
