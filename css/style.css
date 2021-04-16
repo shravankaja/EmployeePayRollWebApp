@@ -174,6 +174,78 @@ input[type=text]:focus {
     bottom : 10px;
 }
 
+#startdate {
+    position: relative;
+    top : 100px;
+}
 
+#startdatesource {
+    position: relative;
+    top: 100px;
+}
 
+.startdate {
+    display: flex;
+    justify-content: space-around;
+}
+
+#startdate {
+    width : 30%;
+    font-family: 'Roboto', sans-serif;
+    color :black;
+    font-weight: 800;
+    position: relative;
+    right : 20px;
+}
+
+.startdatepicker {
+    position: relative;
+    top : 95px;
+    right: 330px;
+}
+
+#day {
+    margin :  10px;
+}
+
+#month {
+    margin-right: 10px;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#notes {
+    width : 30%;
+    font-family: 'Roboto', sans-serif;
+    color :black;
+    font-weight: 800;
+    position: relative;
+    left : 60px;
+    top : 130px;
+}
+
+#textarea {
+    position: relative;
+    height: 70px;
+    top : 120px;
+    right : 90px;
+}
+
+#submit {
+    position: relative;
+    top : 150px;
+    padding: 10px;
+    width : 120px;
+}
+
+#reset {
+    position: relative;
+    top : 150px;
+    padding: 10px;
+    width : 120px;
+
+}
 
