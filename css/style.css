@@ -1,0 +1,44 @@
+body {
+    margin : 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    width : 100%;
+    height : fit-content;
+    background-color: cornsilk;
+    justify-content: center;
+}
+
+.logoandtitle {
+    display: flex;
+    position: relative;
+    right : 290px;
+}
+
+.twotitles {
+    display: flex;
+    flex-direction: column;
+}
+
+.emp-text {
+    font : normal normal bold  18px/25px Montserrat;
+    font-family: 'Montserrat', sans-serif;   
+    color : #82a70c;
+}
+
+.emp-text-payroll {
+    color: #42515f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formcontainer {
+    border : 2px solid red;
+    display : flex;
+    width : 60%;
+    height : 60%;
+    position: relative;
+    top: 100px;
+    right : 30px;
+}
