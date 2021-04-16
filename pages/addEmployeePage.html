@@ -39,7 +39,38 @@
                 <input type="radio" id="radiothree" name="gender" value="male">
                 <img src="../assets/profile-images/Ellipse -4.png" alt = " " id ="imagethirdchoice" class = "imageoption">
             </div>
-        </div>  
+        </div>
+        <div class="inputfield">
+            <label for="lastname" class="inputlabel">Gender :</label>
+            <div  class = "inputsource" id="imgradio">
+                <span id = "female">Female</span>
+                <input type = "radio" id = "radiofemale" value = "gender" name = "gender">
+                <span id = "male">Male</span>
+                <input type = "radio" id = "radiomale" value = "gender" name = "gender">
+            </div>
+        </div>
+        <div id="departmentselector">
+            <label for="department" id = "departmentlabel">Department :</label>
+            <div id="departmentsource" > 
+                <span class = "hr">HR</span>
+                <input type="checkbox" name = "department" value = "department">
+                <span class = "sales">Sales</span>
+                <input type="checkbox" name = "department" value = "department">
+                <span class = "finance">Finance</span>
+                <input type="checkbox" name = "department" value = "department">
+                <span class = "eng">Engineer</span>
+                <input type="checkbox" name = "department" value = "department">
+                <span class = "others">Others</span>
+                <input type="checkbox" name = "department" value = "department">
+            </div>
+        </div> 
+        <div id="salaryselector">
+            <label for="salary" id = "salarylabel">Salary :</label>
+            <div id="salarysource">
+                <input type="range" name="salary" id="salaryrange" min ="20000" max ="100000" step ="1000"
+                value = "25000" >
+            </div>
+        </div> 
     </div>
 </body>
 
