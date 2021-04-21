@@ -1,9 +1,21 @@
 body {
-    margin : 0;
-    height: 100%;  
+    width : 100vw;
+    height: 100vh;  
     background-color : rgb(127 73 73 / 5%);
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+}
+#namevalidate {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-weight: 800;
+    position: relative;
+    bottom : 15px;
+    margin : 5px;
+}
 .header {
     display: flex;
     width : 100%;
@@ -39,11 +51,8 @@ body {
     width : 60%;
     height : 80vh;
     position: relative;
-    left : 100px;
-    margin-left: 190px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    top : 20px;
     flex-direction: column;
 }
 
@@ -246,6 +255,316 @@ input[type=text]:focus {
     top : 150px;
     padding: 10px;
     width : 120px;
+}
+
+
+@media only screen and (min-width:375px) and (max-width:736px) {
+   body {
+       margin : 0;
+       width : 100%;
+       
+   }
+   #namevalidate {
+       font-size:x-small;
+       position: relative;
+       bottom : 60px;
+   }
+    
+    .header {
+        width: 700px;
+        position: relative;
+        left: 0px;
+        right: 42px;
+        height: 30%;
+        
+    }
+
+    .logoandtitle {
+        width : 20%;
+        align-items: flex-start;
+        position: relative;
+        right : 145px;
+    }
+    .formcontainer {
+        display: flex;
+        width: 50;
+        height: 80vh;
+        position: relative;
+        left: 100px;
+        margin-left: -77px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        top: 20px;
+        flex-direction: column;
+        width: 30%;
+        position: relative;
+        right: 400px;
+        width: 92%;
+    }
+
+    .inputlabel {
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 800;
+        font-size: medium;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .inputsource {
+        bottom: 53px;
+        width: 58%;
+        height: 20px;
+        position: relative;
+    }
+
+    #imgradio {
+        display: flex;
+        position: relative;
+        top: -84px;
+        justify-content: space-between;
+    }
+
+    #labelrespon {
+        position: relative;
+        bottom: 80px;
+        font-size: medium;
+    }
+    #imagefirstchoice {
+        width: 29px;
+        height: 29px;
+        position: relative;
+        left: 6px;
+    }
+    
+    #imagesecondchoice {
+        width: 29px;
+        height: 29px;
+        position: relative;
+        left: 6px;
+
+    }
+
+    #radiotwo {
+        position: relative;
+        top: 8px;
+        left: 7px;
+    }
+
+    #radiothree {
+        position: relative;
+        top: 8px;
+        left: 12px;
+    }
+
+    #imagethirdchoice {
+        width: 29px;
+        position: relative;
+        left: 12px;
+        height: 29px;
+    }
+
+    #genderlabel {
+        position: relative;
+    bottom: 92px;
+    font-size: medium;
+    }
+    #radiofemale {
+    position: relative;
+    left: -2px;
+    }
+
+    #male {
+        position: relative;
+        left: -2px;
+    }
+
+    #radiomale {
+        position: relative;
+        left: -2px;
+    }
+
+    #genderrespon {
+        position: relative;
+        bottom : 13px;
+    }
+
+    #genderradio {
+        position: relative;
+    bottom: 92px;
+    }
+
+    #departmentlabel {
+        font-size: smaller;
+        left: 7px;
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 900;
+        position: relative;
+        top: -73px;
+    }
+    #departmentsource {
+        width: 70%;
+        height: 20px;
+        position: relative;
+        top: -78px;
+        left: 27px;
+    }
+    #salarylabel {    
+        bottom: 116px;
+        position: relative;
+        right: 53px;
+    }
+
+    #salarysource {
+        left: 55px;
+        bottom: 134px;
+        position: relative;
+    }
+
+    #startdate {
+        font-size: medium;
+        position: relative;
+        bottom: 66px;
+        top: -19px;
+        left: 31px;
+    }
+
+    .startdatepicker {
+    position: relative;
+    top: -29px;
+    left: -11px;
+    right: 330px;
+    }
+
+    #notesinput {
+        position: relative;
+    }
+
+    #textarea {
+        width:50%;
+            
+    position: relative;
+    height: 40px;
+    top: -11px;
+    right: -87px;
+    }
+
+    #notes {
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 800;
+        position: relative;
+        left: 48px;
+        top: 2px;
+        font-size: medium;
+    }
+
+    #submit {
+        position: relative;
+        top: 16px;
+        padding: 10px;
+        width: 120px;
+    }
+
+    #reset {
+        position: relative;
+        top: 70px;
+        padding: 10px;
+        width: 120px;
+        left: 56px;
+    }
+
+    #namevalidate {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 800;
+
+    }
 
 }
 
+
+@media only screen and (min-width:768px) and (max-width:1100px) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+    }
+    .formcontainer {
+        display: flex;
+        width: 90%;
+        height: 80vh;
+        position: relative;
+        left: -147px;
+        margin-left: 190px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        top: 20px;
+        flex-direction: column;
+    }
+
+    .formheading {
+        align-self: center;
+        color: #42515f;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        right: 199px;
+    }
+
+    #salaryrange {
+        position: relative;
+        top: -8px;
+        left: -93px;
+    }
+
+    #salarylabel {
+        left: -26px;
+        position: relative;
+    }
+
+    .startdatepicker {
+        position: relative;
+        top: 90px;
+        right: 192px;
+    }
+
+    #startdate {
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 800;
+        position: relative;
+        right: -2px;
+    }
+
+    #textarea {
+        position: relative;
+        height: 70px;
+        top: 114px;
+        right: 7px;
+    }
+
+    #notes {
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 800;
+        position: relative;
+        left: 76px;
+        top: 130px;
+    }
+
+    .logoandtitle {
+        display: flex;
+        position: relative;
+        right: 311px;
+    }
+}
