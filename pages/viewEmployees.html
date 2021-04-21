@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+        integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg=="
+        crossorigin="anonymous"></script>
+    <script src="../JS/tabel.js"></script>
+    <link rel="stylesheet" href="../css/viewEmployeesStyle.css">
+    <title>View Employees</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoandtitle">
+            <img src="../assets/images/logo.png" alt="logo" class="logoimage">
+            <div class="twotitles">
+                <span class="emp-text">EMPLOYEE</span>
+                <span class="emp-text-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="headingbuttoncontainer">
+        <span id="tableheading">Employee Details</span>
+        <div id="searchcontainer">
+            <img src="../assets/icons/search1.png" alt="" id="searchicon">
+            <button type="button" id="addemployeebutton">+Add Employee</button>
+        </div>
+    </div>
+    <div class="tabelcontainer">
+        <div id="tabeldisplay"></div>
+    </div>
+</body>
+
+</html>

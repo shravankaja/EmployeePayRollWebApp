@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src ="../JS/Constants.js"></script>
+    <script src = "../JS/Utility.js"></script>
+    <script src ="../JS/addEmployee.js "></script>
     <title>Add Employee</title>
 </head>
 
@@ -25,12 +28,13 @@
     </header>
     <div class="formcontainer">
         <h3 class="formheading">Employee Pay Roll Form</h3>
-        <div class="inputfield">
-            <label for="lastname" class="inputlabel">Name :</label>
+         <div class="inputfield" id ="namefield">
+            <label for="lastname" class="inputlabel" id = "namelabel">Name :</label>
             <input type="text" class="inputsource" name="ifirstname" id="lastname">
+            <p id = "namevalidate"></p>
         </div>
         <div class="inputfield" id = "imageselector">
-            <label for="lastname" class="inputlabel">Profile Image :</label>
+            <label for="lastname" class="inputlabel" id = "labelrespon">Profile Image :</label>
             <div  class = "inputsource" id="imgradio">
                 <input type="radio" id="radioone" name="gender" value="male">
                 <img src="../assets/profile-images/Ellipse -1.png" alt = " " id ="imagefirstchoice" class = "imageoption">
@@ -40,9 +44,9 @@
                 <img src="../assets/profile-images/Ellipse -4.png" alt = " " id ="imagethirdchoice" class = "imageoption">
             </div>
         </div>
-        <div class="inputfield">
-            <label for="lastname" class="inputlabel">Gender :</label>
-            <div  class = "inputsource" id="imgradio">
+        <div class="inputfield" id="genderrespon">
+            <label for="lastname" class="inputlabel" id = "genderlabel">Gender :</label>
+            <div  class = "inputsource" id="genderradio">
                 <span id = "female">Female</span>
                 <input type = "radio" id = "radiofemale" value = "gender" name = "gender">
                 <span id = "male">Male</span>
@@ -69,6 +73,7 @@
             <div id="salarysource">
                 <input type="range" name="salary" id="salaryrange" min ="20000" max ="100000" step ="1000"
                 value = "25000" >
+                <p id = "salarydisplay"></p>
             </div>
         </div> 
         <div class="startdate">
@@ -90,8 +95,9 @@
         </div>
         <div class="notes">
             <label for="notes" id = "notes">Notes : </label>
-            <div class="notesinput">
+            <div class="notesinput" id = "notesinput">
                 ​<textarea  rows="10" cols="70" id = "textarea"></textarea>
+                <p id="textareavalidate"></p>
             </div>
         </div>
         <div class="inputfield">
@@ -99,8 +105,14 @@
             <div class="inputsource">
                 <input type="reset" name="reset" id="reset">
             </div>
-        </div>  
-    </div>
+        </div> 
+        <script>
+           
+        </script>
+   
+   
+   </div>
+    
 </body>
 
 </html>
