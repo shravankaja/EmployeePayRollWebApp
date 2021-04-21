@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "name": "Shravan",
+      "gender": "Male",
+      "depart": "HR",
+      "salary": "13000",
+      "date1" : "12-01-2020"
+    },
+    {
+      "name": "Mark",
+      "gender": "Male",
+      "depart": "Sales",
+      "salary": "130000",
+      "date1" : "09-06-2020"
+    },
+    {
+      "name": "Shelly",
+      "gender": "Female",
+      "depart": "Payroll",
+      "salary": "4550000",
+      "date1" : "17-09-2020"
+    }
+
+
+  ]
+}
