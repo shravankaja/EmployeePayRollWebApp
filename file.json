@@ -1,27 +1,138 @@
 {
   "users": [
     {
+      "id": 478,
       "name": "Shravan",
-      "gender": "Male",
-      "depart": "HR",
-      "salary": "13000",
-      "date1" : "12-01-2020"
-    },
-    {
-      "name": "Mark",
-      "gender": "Male",
-      "depart": "Sales",
-      "salary": "130000",
-      "date1" : "09-06-2020"
-    },
-    {
-      "name": "Shelly",
+      "image": "1",
       "gender": "Female",
-      "depart": "Payroll",
-      "salary": "4550000",
-      "date1" : "17-09-2020"
+      "depart": [
+        "Sales"
+      ],
+      "salary": "60000",
+      "date": "1-2-1997",
+      "text": "null"
+    },
+    {
+      "id": 847,
+      "name": "Mark",
+      "image": "2",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "79000",
+      "date": "2-1-1997",
+      "text": "Nothing much "
+    },
+    {
+      "id": 997,
+      "name": "Mark",
+      "image": "2",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "79000",
+      "date": "2-1-1997",
+      "text": "Nothing much "
+    },
+    {
+      "id": 975,
+      "name": "Bill",
+      "image": "1",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "75000",
+      "date": "1-1-1997",
+      "text": "null"
+    },
+    {
+      "id": 730,
+      "name": "Bill",
+      "image": "1",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "75000",
+      "date": "1-1-1997",
+      "text": "null"
+    },
+    {
+      "id": 293,
+      "name": "Bill",
+      "image": "1",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "75000",
+      "date": "1-1-1997",
+      "text": "s"
+    },
+    {
+      "id": 748,
+      "name": "Lolly",
+      "image": "1",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "60000",
+      "date": "2-1-1997",
+      "text": "s"
+    },
+    {
+      "id": 615,
+      "name": "Pali",
+      "image": "2",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "60000",
+      "date": "1-2-1997",
+      "text": "New HR"
+    },
+    {
+      "id": 464,
+      "name": "Ollu",
+      "image": "3",
+      "gender": "Female",
+      "depart": [
+        "Sales"
+      ],
+      "salary": "60000",
+      "date": "1-1-1997",
+      "text": "k"
+    },
+    {
+      "id": 689,
+      "name": "Kell",
+      "image": "1",
+      "gender": "Female",
+      "depart": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "79000",
+      "date": "2-2-1997",
+      "text": "New in Sales"
     }
-
-
   ]
 }
