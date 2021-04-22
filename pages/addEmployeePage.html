@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src ="../JS/Constants.js"></script>
-    <script src = "../JS/Utility.js"></script>
-    <script src ="../JS/addEmployee.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+        integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg=="
+        crossorigin="anonymous"> </script>
+
+        
+    <script src = "../JS/addEmployee.js" ></script>
     <title>Add Employee</title>
 </head>
 
@@ -27,52 +33,55 @@
         </div>
     </header>
     <div class="formcontainer">
+       <form id = "fo">
         <h3 class="formheading">Employee Pay Roll Form</h3>
          <div class="inputfield" id ="namefield">
             <label for="lastname" class="inputlabel" id = "namelabel">Name :</label>
-            <input type="text" class="inputsource" name="ifirstname" id="lastname">
+            <input type="text" class="inputsource" name="ifirstname" id="lastname" required>
             <p id = "namevalidate"></p>
         </div>
         <div class="inputfield" id = "imageselector">
             <label for="lastname" class="inputlabel" id = "labelrespon">Profile Image :</label>
             <div  class = "inputsource" id="imgradio">
-                <input type="radio" id="radioone" name="gender" value="male">
+                <input type="radio" id="radioone" name="image" value=1>
                 <img src="../assets/profile-images/Ellipse -1.png" alt = " " id ="imagefirstchoice" class = "imageoption">
-                <input type="radio" id="radiotwo" name="gender" value="male">
+                <input type="radio" id="radiotwo" name="image" value=2>
                 <img src="../assets/profile-images/Ellipse -10.png" alt = " " id ="imagesecondchoice" class = "imageoption">
-                <input type="radio" id="radiothree" name="gender" value="male">
+                <input type="radio" id="radiothree" name="image" value=3>
                 <img src="../assets/profile-images/Ellipse -4.png" alt = " " id ="imagethirdchoice" class = "imageoption">
             </div>
         </div>
         <div class="inputfield" id="genderrespon">
+            
             <label for="lastname" class="inputlabel" id = "genderlabel">Gender :</label>
             <div  class = "inputsource" id="genderradio">
                 <span id = "female">Female</span>
-                <input type = "radio" id = "radiofemale" value = "gender" name = "gender">
+                <input type = "radio"  id = "f" value = "Female" name = "radiogender">
                 <span id = "male">Male</span>
-                <input type = "radio" id = "radiomale" value = "gender" name = "gender">
+                <input type = "radio" id = "m" value = "Male" name = "radiogender">
             </div>
+      
         </div>
         <div id="departmentselector">
             <label for="department" id = "departmentlabel">Department :</label>
             <div id="departmentsource" > 
                 <span class = "hr">HR</span>
-                <input type="checkbox" name = "department" value = "department">
+                <input type="checkbox" name = "department" value = "HR" >
                 <span class = "sales">Sales</span>
-                <input type="checkbox" name = "department" value = "department">
+                <input type="checkbox" name = "department" value = "Sales">
                 <span class = "finance">Finance</span>
-                <input type="checkbox" name = "department" value = "department">
+                <input type="checkbox" name = "department" value = "Finance">
                 <span class = "eng">Engineer</span>
-                <input type="checkbox" name = "department" value = "department">
+                <input type="checkbox" name = "department" value = "Engineer">
                 <span class = "others">Others</span>
-                <input type="checkbox" name = "department" value = "department">
+                <input type="checkbox" name = "department" value = "Others">
             </div>
         </div> 
         <div id="salaryselector">
             <label for="salary" id = "salarylabel">Salary :</label>
             <div id="salarysource">
                 <input type="range" name="salary" id="salaryrange" min ="20000" max ="100000" step ="1000"
-                value = "25000" >
+                 value = " ">
                 <p id = "salarydisplay"></p>
             </div>
         </div> 
@@ -82,14 +91,17 @@
             <select id = "day" name="startdate">
                 <option selected disabled>Day</option>
                 <option value="1">1</option>
+                <option value ="2">2</option>
             </select>
             <select id = "month" name="startdate" value ="month">
                 <option selected disabled>Month</option>
                 <option value="1">1</option>
+                <option value ="2">2</option>
             </select>
             <select id = "year" name="startdate">
                 <option selected disabled>Year</option>
-                <option value="1">1</option>
+                <option value="1997">1997</option>
+                <option value="1997">1997</option>
             </select>
             </div>
         </div>
@@ -101,17 +113,15 @@
             </div>
         </div>
         <div class="inputfield">
-            <input type="submit" id = "submit">
+            <button type="submit" id = "submit">Submit
+                
+            </button>   
             <div class="inputsource">
                 <input type="reset" name="reset" id="reset">
             </div>
         </div> 
-        <script>
-           
-        </script>
-   
-   
-   </div>
+    </form>
+</div>
     
 </body>
 
