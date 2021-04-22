@@ -1,9 +1,9 @@
 
 
+
 define([''], function () {
 
-    var methods = {}
-    var users = [];
+    var methods = {};
     var r;
 
     let dataToBeSent;
@@ -24,5 +24,21 @@ define([''], function () {
 
         });
     }
+
+    methods.postData = function (obj) {
+        let res  =   axios.post('http://localhost:3000/users',obj);
+        console.log(res.data)
+    }
+
+    methods.delete = function(id) {
+        let url = `http://localhost:3000/users/${id}/2`
+        
+        let res =  axios.delete(url);
+
+        console.log(res.status);
+    }
+
+
+
     return methods;
 });
